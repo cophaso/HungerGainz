@@ -5,6 +5,7 @@ This app is created to help a user feed their hunger cravings by showing restaur
 
 # Team
 Kayla Graham <a href="https://github.com/kaylajaograham">Github</a>
+<br>
 Crystal Ophaso
 
 # User Flow
