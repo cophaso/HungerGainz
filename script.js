@@ -82,6 +82,7 @@ function getYoutubeVideos(searchTerm, maxResults = 5) {
       .catch(err => {
       $('#js-error-message').text(`Something Failed ${err.message}`);
       })
+    }
 }
 
 // Adds html to display the youtube videos that were retrieved in the getYoutubeVideos function
