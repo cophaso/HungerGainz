@@ -4,8 +4,8 @@ This app is created to help a user feed their hunger cravings by showing restaur
 
 
 # Team
-Kayla Graham  
-Crystal Ophaso (git username: cophaso)
+Kayla Graham <a href="https://github.com/kaylajaograham">Github</a>
+Crystal Ophaso
 
 # User Flow
 <p align="center"><img src="img/user_flow.png" /></p>
