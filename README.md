@@ -2,7 +2,7 @@
 
 Summary: It's always the daunting question...<i>What do you want to eat?</i> Hunger Gainz makes the decision process easy. We aim to feed your cravings by showing nearby restaurants for the cuisine that sound good to you or by grabbing YouTube videos to you make the dish at home. 
 
-Demo here: https://kaylajaograham.github.io/HungerGainz/
+Demo here: https://cophaso.github.io/HungerGainz/
 
 # Team
 Kayla Graham <a href="https://github.com/kaylajaograham">Github</a>
