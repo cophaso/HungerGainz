@@ -89,7 +89,7 @@ function getYoutubeVideos(searchTerm, maxResults = 5) {
 function displayVidResults(responseJson) {
   for (let i = 0; i < responseJson.items.length; i++) {
     $('.video-results').append(
-      `<li>
+      `<li role="listitem">
       <h3>${responseJson.items[i].snippet.title}</h3>
       <a href="https://www.youtube.com/watch?v=${responseJson.items[i].id.videoId}" target="_blank">
       <img src='${responseJson.items[i].snippet.thumbnails.medium.url}'>
@@ -114,7 +114,7 @@ function getZomatoCuisineId(searchTerm) {
 function getZomatoCityId(searchTerm, city) {
   const options = {
     headers: new Headers({
-        'user-key': zomatoApiKey
+        'user-key': zomatoApiKey,     
     })
   };
 
@@ -139,7 +139,7 @@ function getZomatoRest(searchTerm, city_id, maxResults = 5) {
   for (let i = 0; i < searchTerm.length; i++) {
     const options = {
         headers: new Headers({
-            'user-key': zomatoApiKey
+            'user-key': zomatoApiKey,
         })
     };
 
@@ -169,7 +169,7 @@ function getZomatoRest(searchTerm, city_id, maxResults = 5) {
 // creates html to display the restaraunt recommendations
 function displayRestResults(responseJson) {
   for (let i = 0; i < responseJson.restaurants.length; i++) {
-    $('.rest-results').append(`<li>
+    $('.rest-results').append(`<li role="listitem">
     <a href='${responseJson.restaurants[i].restaurant.url}' target="_blank">${responseJson.restaurants[i].restaurant.name}</a> | <a href='${responseJson.restaurants[i].restaurant.menu_url}' target="_blank">Menu</a>
     <br>
     <br>
@@ -188,7 +188,7 @@ function selectCuisine() {
 // toggles the selection highlight for the Staying In or Going Out option
 function whereToEat() {
   $('.inOrOut').on('click', '.whereToEat', function(event) {
-    $('.active').removeClass('active')
+    $('.whereToEat.active').removeClass('active');
     inOutFilter = $(event.target).text();
     $(this).addClass('active');
   });

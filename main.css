@@ -68,6 +68,8 @@ h3 {
   text-align: center;
   font-weight: 900;
   color: black;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 section.location {
