@@ -16,7 +16,7 @@ main {
   background-size: cover;
   opacity: 0.5;
   filter: alpha(opacity=50);
-  max-height: 420px;
+  height: 420px;
 }
 
 .heroSlideContainer {
@@ -240,7 +240,7 @@ ul {
 
 @media (min-width: 600px) {
   .mySlides {
-    max-height: 510px;
+    height: 510px;
   }
   .heroSlideContainer {
     max-height: 510px;
@@ -268,7 +268,7 @@ ul {
 
 @media (min-width: 800px) {
   .mySlides {
-    max-height: 800px;
+    height: 800px;
   }
   .heroSlideContainer {
     max-height: 800px;
